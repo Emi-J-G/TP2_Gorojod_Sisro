@@ -87,6 +87,10 @@ header {
   left: 0;
   border-bottom: 1em solid #66FCF1;
 }
+section
+{
+  margin-bottom: 1.5%;
+}
 main
 {
   margin-top: 8%;
