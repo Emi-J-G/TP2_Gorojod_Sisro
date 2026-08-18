@@ -147,3 +147,70 @@ header img
 {
   border: 0.5em solid #ff2a2a;
 }
+.Form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 4%;
+  padding: 3%;
+  background-color: #1F2833;
+  border-radius: 2.5em;
+  border: 2px solid #66FCF1;
+}
+
+.Form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.Form p {
+  margin-bottom: 1%;
+  margin-top: 5%;
+}
+
+.Form input[type="text"],
+.Form textarea {
+  width: 90%;
+  padding: 0.8em;
+  background-color: #0B0C10;
+  border: 0.1em solid #66FCF1;
+  border-radius: 0.8em;
+  color: #C5C6C7;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1em;
+}
+
+.Form input[type="file"] {
+  font-family: "Orbitron", sans-serif;
+  color: #C5C6C7;
+  background-color: #0B0C10;
+  padding: 0.5em;
+  border-radius: 0.8em;
+  width: 90%;
+}
+
+.Form input[type="submit"] {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.2em;
+  background-color: #66FCF1;
+  color: #0B0C10;
+  border: none;
+  border-radius: 0.8em;
+  padding: 2em;
+  margin-top: 1.5em;
+  font-weight: bold;
+}
+
+.Form input[type="submit"]:hover {
+  background-color: #0B0C10;
+  color: #66FCF1;
+  border: 0.2em solid #66FCF1;
+}
+.CTA button:hover {
+  background-color: #0B0C10;  
+  color: #66FCF1;
+  font-weight: bold;
+  border: 0.1em solid #66FCF1;
+}
