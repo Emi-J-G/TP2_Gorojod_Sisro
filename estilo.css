@@ -208,9 +208,68 @@ header img
   color: #66FCF1;
   border: 0.2em solid #66FCF1;
 }
+
 .CTA button:hover {
-  background-color: #0B0C10;  
+  background-color: #1F2833;  
   color: #66FCF1;
   font-weight: bold;
   border: 0.1em solid #66FCF1;
+}
+
+footer {
+  background-color: #1F2833;
+  padding: 2%;
+  margin-top: 5%;
+  border-top: 0.5em solid #66FCF1;
+}
+
+.Footer-Contenido {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4%;
+  align-items: start;
+}
+.FooterSeccion ul {
+  padding: 0;
+  margin: 0;
+}
+
+.FooterSeccion li {
+  margin-bottom: 0.8em;
+  text-align: center;
+}
+
+.FooterSeccion a:hover {
+  color: #C5C6C7;
+  text-decoration: underline;
+}
+.RedesSociales {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.RedesSociales ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  padding: 0;
+}
+
+.RedesSociales img {
+  width: 35%;
+}
+
+.Footer-Trademark {
+  margin-top: 3%;
+  padding-top: 1.5%;
+  border-top: 0.1em solid #0B0C10;
+  width: 100%;
+}
+
+.Footer-Trademark p {
+  font-size: 1em;
+  color: #C5C6C7;
 }
