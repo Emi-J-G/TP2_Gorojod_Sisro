@@ -222,7 +222,7 @@ footer {
   border-top: 0.5em solid #66FCF1;
 }
 
-.Footer-Contenido {
+.FooterContenido {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -261,14 +261,18 @@ footer {
   width: 35%;
 }
 
-.Footer-Trademark {
+.FooterTrademark {
   margin-top: 3%;
   padding-top: 1.5%;
   border-top: 0.1em solid #0B0C10;
   width: 100%;
 }
 
-.Footer-Trademark p {
+.FooterTrademark p {
   font-size: 1em;
   color: #C5C6C7;
+}
+header img
+{
+  width:15%;
 }
