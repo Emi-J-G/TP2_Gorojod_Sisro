@@ -136,7 +136,7 @@ header img
 }
 .pruebaSocial div img
 {
-  width:30%;
+  width:15%;
   border-radius: 10em;
 }
 .Positiva img
@@ -206,14 +206,13 @@ header img
 .Form input[type="submit"]:hover {
   background-color: #0B0C10;
   color: #66FCF1;
-  border: 0.2em solid #66FCF1;
+  box-shadow: 0em 0em 1em 0.5em #66FCF1;
 }
 
 .CTA button:hover {
-  background-color: #1F2833;  
+  background-color: #7224bb;  
   color: #66FCF1;
-  font-weight: bold;
-  border: 0.1em solid #66FCF1;
+  box-shadow: 0em 0em 1em 0.5em #66FCF1;
 }
 
 footer {
