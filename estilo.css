@@ -278,3 +278,18 @@ header img
 {
   width:15%;
 }
+.Ciencia
+{
+  width: 100%;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+}
+.Ciencia article
+{
+  margin:1%;
+  padding: 2%;
+  background-color: #1F2833;
+  border-radius: 2.5em;
+  width: 50%;
+}
