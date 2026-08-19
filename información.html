@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <title>Document</title>
 </head>
 <body>
     <header>
+        <img src="Imagenes/Logo.png" alt="Nombre de la marca o empresa">
         <nav>
             <ul>
                 <li><a href="index.html">Pagina principal</a></li>
@@ -22,13 +24,45 @@
 
 
         
-        <div class="Form"></div>
+        <div class="Form">
+            <h2>Sube tus reseñas</h2>
+            <form>
+                <p>Nombre de usuario:</p>
+                <input type="text" name="nombre">
+                <p>Foto de perfil:</p>
+                <input type="file" name="foto">
+                <p>Escribe tu reseña aqui:</p>
+                <textarea name="comentario"></textarea>
+                <input type="submit" value="Enviar reseña">
+            </form>
+        </div>
     </main>
     <footer>
-        <section>
-            <div class="rSoc"></div>
-            
+        <section class="FooterContenido">   
+            <div class="FooterSeccion">
+                <h3>Sobre Nosotros</h3>
+                <p>Creamos experiencias futuristas y soluciones digitales a la medida de tus necesidades tecnológicas.</p>
+            </div>
+            <div class="FooterSeccion">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="index.html">Pagina principal</a></li>
+                    <li><a href="hogares.html">Hogares disponibles</a></li>
+                    <li><a href="información.html">Sobre nosotros</a></li>
+                    <li><a href="terraformaciones.html">Terraformaciones</a></li>
+                </ul>
+            </div>
+            <div class="RedesSociales">
+                <h3>Síguenos</h3>
+                <ul>
+                    <li><a href="https://instagram.com"><img src="Imagenes/Instagram.png" alt="Logo de Instagram"></a></li>
+                    <li><a href="https://linkedin.com"><img src="Imagenes/LinkedIn.png" alt="Logo de LinkedIn"></a></li>
+                </ul>
+            </div>
         </section>
-    </footer>
+        <div class="FooterTTrademark">
+            <p>2026 Nuevos Mundos™. Todos los derechos reservados.</p>
+        </div>
+        </footer>
 </body>
 </html>
