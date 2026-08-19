@@ -29,7 +29,7 @@ a
 {
   font-size: 1.6em;
 }
-.Hogares {
+.Grid {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -42,7 +42,7 @@ section img
   margin-left: auto;
   margin-right: auto;
 }
-.Hogares article img
+.Grid article img
 {
   width: 95%;
   display: block;
@@ -50,7 +50,7 @@ section img
   margin-right: auto;
   border-radius: 2.5em;
 }
-.Hogares article
+.Grid article
 {
   margin:1%;
   padding: 2%;
@@ -78,7 +78,8 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 97%;
+  height: 7%;
   padding: 1.5%;
   background-color: #1F2833;
   position: fixed;
@@ -108,7 +109,8 @@ nav ul {
 }
 header img
 {
-  width:20%;
+  width:17%;
+  margin-left:3%;
 }
 .CTA
 {
