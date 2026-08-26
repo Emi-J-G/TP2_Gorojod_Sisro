@@ -121,11 +121,9 @@ header img
 }
 .pruebaSocial {
   width: 100%;
-
   display: flex;
   gap: 5%;
   flex-wrap: wrap;
-
   justify-content: center;
 }
 .pruebaSocial div
@@ -154,7 +152,7 @@ header img
   margin-left: auto;
   margin-right: auto;
   margin: 4%;
-  padding: 3%;
+  padding: 1%;
   background-color: #1F2833;
   border-radius: 2.5em;
   border: 2px solid #66FCF1;
@@ -175,7 +173,7 @@ header img
 .Form input[type="text"],
 .Form textarea {
   width: 90%;
-  padding: 0.8em;
+  padding: 1%;
   background-color: #0B0C10;
   border: 0.1em solid #66FCF1;
   border-radius: 0.8em;
@@ -188,7 +186,7 @@ header img
   font-family: "Orbitron", sans-serif;
   color: #C5C6C7;
   background-color: #0B0C10;
-  padding: 0.5em;
+  padding: 1%;
   border-radius: 0.8em;
   width: 90%;
 }
@@ -200,8 +198,8 @@ header img
   color: #0B0C10;
   border: none;
   border-radius: 0.8em;
-  padding: 2em;
-  margin-top: 1.5em;
+  padding: 1%;
+  margin-top: 1%;
   font-weight: bold;
 }
 
@@ -241,7 +239,7 @@ footer {
   text-align: center;
 }
 
-.FooterSeccion a:hover {
+.FooterSeccion a:hover, header nav ul li a:hover {
   color: #C5C6C7;
   text-decoration: underline;
 }
@@ -315,4 +313,26 @@ header img
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+
+.Grid2 article img
+{
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2.5em;
+}
+.Grid2 article
+{
+  margin:1%;
+  padding: 2%;
+  background-color: #1F2833;
+  border-radius: 2.5em;
+}
+.Grid2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
 }
