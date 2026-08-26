@@ -276,29 +276,6 @@ header img
 {
   width:15%;
 }
-.Ciencia
-{
-  width: 100%;
-  display: flex;
-  gap: 2%;
-  justify-content: center;
-}
-.Ciencia article
-{
-  margin:1%;
-  padding: 2%;
-  background-color: #1F2833;
-  border-radius: 2.5em;
-  width: 65%;
-}
-.Ciencia article img
-{
-  width:100%;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 1em;
-}
 .Informacion img
 {
   border-radius: 2.5em;
